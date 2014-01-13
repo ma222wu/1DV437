@@ -524,6 +524,8 @@ namespace Potholy
 
             m_player1.SetStatsFromItems();
 
+            m_time = new TimeSpan();
+
             base.OnEnter();
         }
 
